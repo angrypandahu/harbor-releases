@@ -23,10 +23,10 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.5/Yingji-0.0.5-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
-| Windows · x64 | [下载安装程序](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.5/Yingji-0.0.5-Windows-x64.exe) | 适用于 Windows x64 电脑 |
+| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.6/Yingji-0.0.6-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
+| Windows · x64 | v0.0.6 安装包另行提供 | 请等待对应版本的 Windows 附件 |
 
-当前安装包为 **v0.0.5**。其他附件与每次更新的具体说明，请查看 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。本版不提供 Intel Mac 或 Windows ARM 安装包。
+当前安装包为 **v0.0.6**。其他附件与每次更新的具体说明，请查看 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。本版先提供 Mac Apple Silicon 安装包；Windows x64 另行构建。不提供 Intel Mac 或 Windows ARM 安装包。
 
 ## 从“收藏了”到“用起来”
 
@@ -72,12 +72,14 @@ Markdown 文件是文档正文，你可以继续用自己的编辑器修改。�
 
 首次准备需要联网，耗时取决于网络、模型大小和设备性能。平台内容能否读取或下载，也取决于账号状态、内容权限及平台限制。
 
+v0.0.6 是新发布仓库的安装起点，旧公开版本已清理。后续 Mac 版本继续通过应用内更新入口获取；Windows 仍通过完整安装包覆盖更新。
+
 ## 更新与常见问题
 
 <details>
 <summary><strong>升级后提示“环境尚未准备”，怎么办？</strong></summary>
 
-点击「开始准备」，重新检查所需运行环境。v0.0.5 更新了受管资源清单，升级后可能出现这一步；不需要为此清空资料或重新配对 Agent。
+点击「开始准备」，重新检查所需运行环境。运行环境或资源清单变化时可能出现这一步；不需要为此清空资料或重新配对 Agent。
 
 </details>
 
