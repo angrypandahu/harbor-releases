@@ -2,7 +2,7 @@
 
 此仓库仅公开安装包、更新清单及发行说明。应用源码单独维护，不在这里公开。
 
-[下载最新版本](https://github.com/angrypandahu/harbor-releases/releases/latest)
+[下载最新版本](https://github.com/angrypandahu/yingji-releases/releases/latest)
 
 支持 Mac Apple Silicon（M系列芯片）。首次安装下载 DMG，把 `Harbor Yingji.app` 放入本人可写的应用目录。v0.0.4 起使用完整临时签封并严格校验，但尚无 Apple Developer ID 签名/公证；系统要求时通过 macOS 提供的正常批准方式首次启动。
 
