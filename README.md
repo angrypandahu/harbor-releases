@@ -23,10 +23,10 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.6/Yingji-0.0.6-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
-| Windows · x64 | v0.0.6 安装包另行提供 | 请等待对应版本的 Windows 附件 |
+| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.7/Yingji-0.0.7-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
+| Windows · x64 | v0.0.7 安装包另行提供 | 请等待对应版本的 Windows 附件 |
 
-当前安装包为 **v0.0.6**。其他附件与每次更新的具体说明，请查看 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。本版先提供 Mac Apple Silicon 安装包；Windows x64 另行构建。不提供 Intel Mac 或 Windows ARM 安装包。
+当前安装包为 **v0.0.7**。其他附件与每次更新的具体说明，请查看 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。本版先提供 Mac Apple Silicon 安装包；Windows x64 另行构建。不提供 Intel Mac 或 Windows ARM 安装包。
 
 ## 从“收藏了”到“用起来”
 
@@ -59,9 +59,9 @@ Markdown 文件是文档正文，你可以继续用自己的编辑器修改。�
 | 本地资料库 | 在一个主文件夹中管理媒体、Markdown 和引用图片 |
 | 本地转写 | 运行环境与模型首次准备需要联网；语音识别在本机执行 |
 | 外部 Agent 接入 | 核对配对信息并批准后访问资料，随时可以撤销授权 |
-| 可选云同步 | 主动同步已登记内容；本地业务不要求先登录云端 |
+| 本地使用 | 当前客户端暂不开放云端登录与同步功能 |
 
-原始音视频、来源登录凭据和模型不纳入业务云同步。外部 Agent 对资料的处理取决于你选择的工具与服务。
+资料、来源登录凭据和模型保存在本机；当前客户端隐藏云端功能。外部 Agent 对资料的处理取决于你选择的工具与服务。
 
 ## 开始使用
 
@@ -72,7 +72,7 @@ Markdown 文件是文档正文，你可以继续用自己的编辑器修改。�
 
 首次准备需要联网，耗时取决于网络、模型大小和设备性能。平台内容能否读取或下载，也取决于账号状态、内容权限及平台限制。
 
-v0.0.6 是新发布仓库的安装起点，旧公开版本已清理。后续 Mac 版本继续通过应用内更新入口获取；Windows 仍通过完整安装包覆盖更新。
+v0.0.6 用户可以从应用内更新到 v0.0.7，本次提供完整和增量更新包。旧公开 v0.0.6 发行附件按维护者要求清理；后续 Mac 版本继续通过应用内更新入口获取，Windows 仍通过完整安装包覆盖更新。
 
 ## 更新与常见问题
 
@@ -100,7 +100,7 @@ v0.0.6 是新发布仓库的安装起点，旧公开版本已清理。后续 Mac
 <details>
 <summary><strong>Release 中有很多附件，应该下载哪个？</strong></summary>
 
-首次安装选择上方对应平台的 DMG 或 EXE。Mac 也提供手动安装 ZIP；名称含 `update`、`delta` 的 ZIP 和 `update.json` 是应用更新使用的附件，无需手动解压安装。校验文件用于核对下载完整性，FFmpeg 源码包用于履行相关许可证要求。
+首次安装选择上方对应平台的 DMG 或 EXE。Mac 不提供普通安装 ZIP；名称含 `update`、`delta` 的 ZIP 和 `update.json` 是应用更新使用的附件，无需手动解压安装。校验文件用于核对下载完整性，FFmpeg 源码包用于履行相关许可证要求。
 
 </details>
 
