@@ -71,7 +71,13 @@
 
 ## 三步上手
 
-1. **装上**：Mac 下载 DMG，把 `Yingji.app` 拖进“应用程序”；Windows 运行 EXE 安装。
+1. **装上**：Mac 下载 DMG，把 `Yingji.app` 拖进“应用程序”。如果第一次打不开，打开「终端」，复制下面这行执行：
+
+   ```bash
+   xattr -cr /Applications/Yingji.app
+   ```
+
+   Windows 运行 EXE 安装。
 2. **准备一下**：选好资料文件夹，按提示准备运行环境；要转文字的话，顺手装上模型。
 3. **开始用**：在「设置 → 来源账号」连上账号，去收藏夹点刷新；想生成笔记，到「设置 → Agent 接入」接上你的 AI。
 
@@ -98,7 +104,13 @@ v0.0.6 用户可以在应用内直接升级到 v0.0.7（支持完整和增量更
 <details>
 <summary><strong>Mac 第一次打开弹出系统提示？</strong></summary>
 
-当前 macOS 安装包还没有 Apple Developer ID 公证。确认文件来自本仓库的正式 Release 后，在 macOS「隐私与安全性」里按正常方式允许打开即可，不需要关闭系统安全保护。
+当前 macOS 安装包还没有 Apple Developer ID 公证。确认文件来自本仓库的正式 Release 后，把应用拖进“应用程序”，再在终端执行：
+
+```bash
+xattr -cr /Applications/Yingji.app
+```
+
+这条命令会清掉下载带来的隔离标记。也可以在 macOS「隐私与安全性」里按正常方式允许打开，不需要关闭系统安全保护。
 
 </details>
 
