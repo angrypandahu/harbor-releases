@@ -64,10 +64,10 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.7/Yingji-0.0.7-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
-| Windows · x64 | v0.0.7 安装包另行提供 | 请等待对应版本的 Windows 附件 |
+| macOS · Apple Silicon | [下载 DMG](https://github.com/angrypandahu/yingji-releases/releases/download/v0.0.8/Yingji-0.0.8-macOS-arm64.dmg) | 适用于 M 系列芯片的 Mac |
+| Windows · x64 | v0.0.8 安装包另行提供 | 请等待对应版本的 Windows 附件 |
 
-当前版本 **v0.0.7**。每次更新的详情见 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。暂不提供 Intel Mac 和 Windows ARM 安装包。
+当前版本 **v0.0.8**。每次更新的详情见 [Release 页面](https://github.com/angrypandahu/yingji-releases/releases/latest)。暂不提供 Intel Mac 和 Windows ARM 安装包。
 
 ## 三步上手
 
@@ -83,7 +83,7 @@
 
 首次准备需要联网，耗时看网速、模型大小和电脑性能。平台内容能否读取或下载，也取决于账号状态、内容权限和平台限制。
 
-v0.0.6 用户可以在应用内直接升级到 v0.0.7（支持完整和增量更新）。之后 Mac 版本继续走应用内更新，Windows 仍通过完整安装包覆盖更新。
+v0.0.7 用户可以在应用内直接升级到 v0.0.8（支持完整和增量更新）。之后 Mac 版本继续走应用内更新，Windows 仍通过完整安装包覆盖更新。
 
 ## 常见问题
 
